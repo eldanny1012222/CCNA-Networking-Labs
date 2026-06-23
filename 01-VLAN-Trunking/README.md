@@ -25,11 +25,9 @@ Configure VLANs and trunking between two Cisco switches in Cisco Packet Tracer.
 
 ## Verification
 
-### VLAN Table
-![VLANs](show-vlan-brief.png)
-
-### Trunk Status
-![Trunk](show-interfaces-trunk.png)
+### VLAN Table & ### Trunk Status
+![VLANs](vlan_and_trunk_verification_switch0.png)
+![VLANs](vlan_and_trunk_verification_switch1.png)
 
 ## Skills Learned
 
