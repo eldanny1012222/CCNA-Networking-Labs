@@ -6,7 +6,7 @@ Configure VLANs and trunking between two Cisco switches in Cisco Packet Tracer.
 
 ## Topology
 
-Topology screenshot will be added here.
+![Topology](topology.png)
 
 ## VLAN Design
 
@@ -25,7 +25,11 @@ Topology screenshot will be added here.
 
 ## Verification
 
-Screenshots of `show vlan brief` and `show interfaces trunk` will be added here.
+### VLAN Table
+![VLANs](show-vlan-brief.png)
+
+### Trunk Status
+![Trunk](show-interfaces-trunk.png)
 
 ## Skills Learned
 
