@@ -41,6 +41,8 @@ Configure Router-on-a-Stick Inter-VLAN Routing using 802.1Q subinterfaces.
 
 PC0 (VLAN 10) successfully communicated with PC1 (VLAN 20) through Router-on-a-Stick Inter-VLAN Routing.
 
+![Topology](PC0_to_PC1_Connectivity_Test.png)
+
 ## Skills Learned
 
 - Inter-VLAN Routing
