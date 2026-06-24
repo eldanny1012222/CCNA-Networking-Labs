@@ -6,7 +6,7 @@ Configure Router-on-a-Stick Inter-VLAN Routing using 802.1Q subinterfaces.
 
 ## Topology
 
-Topology screenshot will be added here.
+![Topology](topology(1).png)
 
 ## VLAN Design
 
@@ -23,10 +23,23 @@ Topology screenshot will be added here.
 - Configured router subinterfaces using 802.1Q encapsulation
 - Assigned default gateways to hosts
 - Verified communication between VLANs
-
 ## Verification
 
-Screenshots of `show ip interface brief`, `show vlan brief`, and `show interfaces trunk` will be added here.
+### Router Interfaces
+
+![show ip interface brief](show-ip-interface-brief.png)
+
+### VLAN Configuration
+
+![show vlan brief](show-vlan-brief.png)
+
+### Trunk Status
+
+![show interfaces trunk](show-interfaces-trunk.png)
+
+### Connectivity Test
+
+PC0 (VLAN 10) successfully communicated with PC1 (VLAN 20) through Router-on-a-Stick Inter-VLAN Routing.
 
 ## Skills Learned
 
