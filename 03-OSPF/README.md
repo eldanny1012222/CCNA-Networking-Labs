@@ -6,7 +6,7 @@ Configure OSPF to dynamically exchange routes between multiple routers and verif
 
 ## Topology
 
-Topology screenshot will be added here.
+![Topology](OSPF_Topology.png)
 
 ## IP Addressing
 
@@ -31,7 +31,21 @@ Topology screenshot will be added here.
 
 ## Verification
 
-Screenshots of `show ip ospf neighbor`, `show ip route ospf`, and successful ping tests will be added here.
+### OSPF Neighbor Relationships
+
+![OSPF Neighbors](Router1_&_Router2_OSPF_Neighbor.png)
+
+![OSPF Neighbors](Router3_OSPF_Neighbor.png)
+
+### OSPF Routing Table
+
+![OSPF Routes](Router1_&_Router2_IP_Route.png)
+
+![OSPF Routes](Router3_IP_Route.png)
+
+### End-to-End Connectivity
+
+![Ping Test](PC1_to_PC2_Successful_Ping.png)
 
 ## Skills Learned
 
