@@ -12,10 +12,10 @@ Configure Port Address Translation (PAT) to allow multiple internal devices to s
 
 | Device | Interface | IP Address |
 |----------|----------|------------|
-| PC1 | NIC | 192.168.10.10/24 |
-| PC2 | NIC | 192.168.10.20/24 |
-| R1 | G0/0 (Inside) | 192.168.10.1/24 |
-| R1 | G0/1 (Outside) | 209.165.200.225/30 |
+| PC0 | NIC | 192.168.10.10/24 |
+| PC1 | NIC | 192.168.10.20/24 |
+| R0 | G0/0 (Inside) | 192.168.10.1/24 |
+| R0 | G0/1 (Outside) | 209.165.200.225/30 |
 | ISP | G0/0 | 209.165.200.226/30 |
 | ISP | G0/1 | 198.51.100.1/24 |
 | Server | NIC | 198.51.100.10/24 |
@@ -44,11 +44,11 @@ Configure Port Address Translation (PAT) to allow multiple internal devices to s
 
 ![Routing Table](show-ip-route.png)
 
-### PC1 Connectivity Test
+### PC0 Connectivity Test
 
 ![PC1 Ping](ping-test-pc0.png)
 
-### PC2 Connectivity Test
+### PC1 Connectivity Test
 
 ![PC2 Ping](ping-test-pc1.png)
 
