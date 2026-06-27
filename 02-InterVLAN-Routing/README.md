@@ -51,3 +51,7 @@ PC0 (VLAN 10) successfully communicated with PC1 (VLAN 20) through Router-on-a-S
 - Layer 3 forwarding
 - Default gateways
 - Network troubleshooting
+
+## Files
+
+- [Download Packet Tracer Lab](VLAN-Trunking.pkt)
