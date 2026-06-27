@@ -59,3 +59,7 @@ Configure VLANs and trunking between two Cisco switches in Cisco Packet Tracer.
 * Switchport modes
 * Layer 2 switching
 * Network troubleshooting
+
+## Files
+
+- [Download Packet Tracer Lab](VLAN-Trunking.pkt)
