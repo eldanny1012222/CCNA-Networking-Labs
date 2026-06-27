@@ -55,3 +55,7 @@ Configure OSPF to dynamically exchange routes between multiple routers and verif
 - Neighbor Relationships
 - Routing Table Verification
 - Network Troubleshooting
+
+## Files
+
+- [Download Packet Tracer Lab](OSPF-Lab.pkt)
