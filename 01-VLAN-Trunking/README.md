@@ -35,7 +35,7 @@ Configure VLANs and trunking between two Cisco switches in Cisco Packet Tracer.
 - Configured switchports in access mode
 
 ### Trunk Configuration
-- Configured Fa0/24 between SW1 and SW2 as a trunk link
+- Configured Fa0/24 between SW0 and SW1 as a trunk link
 - Allowed VLANs 10 and 20 on the trunk
 - Verified trunk status using `show interfaces trunk`
 
