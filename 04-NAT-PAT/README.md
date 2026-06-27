@@ -6,7 +6,7 @@ Configure Port Address Translation (PAT) to allow multiple internal devices to s
 
 ## Topology
 
-Topology screenshot will be added here.
+![Topology](topology_nat.png)
 
 ## IP Addressing
 
@@ -29,14 +29,28 @@ Topology screenshot will be added here.
 - Added a default route to reach external networks
 - Verified NAT translations and end-to-end connectivity
 
+
 ## Verification
 
-Screenshots of the following will be added here:
+### NAT Translation Table
 
-- `show ip nat translations`
-- `show ip nat statistics`
-- `show ip route`
-- Successful ping from PC1 and PC2 to the server
+![NAT Translations](show-ip-nat-translations.png)
+
+### NAT Statistics
+
+![NAT Statistics](show-ip-nat-statistics.png)
+
+### Routing Table
+
+![Routing Table](show-ip-route.png)
+
+### PC1 Connectivity Test
+
+![PC1 Ping](ping-test-pc0.png)
+
+### PC2 Connectivity Test
+
+![PC2 Ping](ping-test-pc1.png)
 
 ## Skills Learned
 
@@ -46,3 +60,7 @@ Screenshots of the following will be added here:
 - Standard ACLs
 - Inside vs. Outside Interfaces
 - Network Troubleshooting
+
+## Files
+
+- [Download Packet Tracer Lab](NAT-PAT-Lab.pkt)
